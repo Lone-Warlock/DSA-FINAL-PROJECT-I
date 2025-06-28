@@ -9,4 +9,4 @@
 
 ## 🔍 Nmap Scan:
 ```bash
-nmap -sV -Pn 192.168.100.20
+nmap -sV -5357 192.168.100.20
