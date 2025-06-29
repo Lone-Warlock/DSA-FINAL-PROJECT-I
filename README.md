@@ -33,11 +33,13 @@ This project sets up a realistic cybersecurity lab for practicing ethical hackin
 
 ### 1️⃣ Preliminary Setup
 
+- Ran sudo apt update && sudo apt full-upgrade on Kali Linux
+- Pinged the loopback addresses of the VMs to verify internal network
 - Assigned static IPs to both VMs
 - Verified internal-only connectivity
 - Firewall temporarily disabled on Windows for unrestricted access
 
-📄 See: [`prelim-setup/`](prelim_setup)
+📄 See: [`prelim-setup/`](https://github.com/Lone-Warlock/DSA-FINAL-PROJECT-I/blob/748acc61570dc8596693fd6b1d5dc22b68836005/prelim_setup/08.%20prelim_notes.md)
 
 ---
 
