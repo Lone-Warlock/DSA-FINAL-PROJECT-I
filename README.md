@@ -60,7 +60,7 @@ This project sets up a realistic cybersecurity lab for practicing ethical hackin
 - Configured shared folder on Windows
 - Accessed from Kali using `smbclient`
 
-📄 See: [`smb-access.md`](https://github.com/Lone-Warlock/DSA-FINAL-PROJECT-I/blob/main/prelim_setup/SMB_ACCESS.md)
+📄 See: [`smb-access.md`](https://github.com/Lone-Warlock/DSA-FINAL-PROJECT-I/blob/main/prelim_setup/12.%20SMB_ACCESS.md)
 
 ---
 
