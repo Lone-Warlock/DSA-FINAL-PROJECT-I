@@ -3,7 +3,7 @@
 ## 1. Case Overview
 
 **Case Title:** Case 419  
-**Date:** [03/07/2025]  
+**Date:** 03/07/2025  
 **Examiner:** Dare Adelaja  
 **Case Summary:**  
 This investigation involves the forensic examination of an Android disk image suspected to contain evidence of fraudulent activities. The analysis uncovered messages, and online behavior patterns indicative of cybercrime, particularly online financial fraud.
@@ -34,7 +34,7 @@ This investigation involves the forensic examination of an Android disk image su
 - Multiple messages suggesting fraudulent plans.
 - **Example:**
   - _“Let's create a fake investment website and lure people into investing in a non-existent cryptocurrency. We'll promise huge returns.”_
-
+   
 ### 3.2 Call Logs  
 - Frequent calls to multiple international numbers.
 - Multiple mobile phones
@@ -72,7 +72,9 @@ This Android image contains clear digital evidence linking the device owner to l
 
 Below are selected screenshots from Autopsy analysis:
 
-![SMS Evidence](./android-investigation/screenshots/sms_log.png)  
-![Browser History](./android-investigation/screenshots/browser_activity.png) 
+![Browser History](https://github.com/Lone-Warlock/DSA-FINAL-PROJECT-I/blob/main/ANDROID_PHONE_DIGITAL_FORENSICS/EXHIBIT%20A.png)
 
+![SMS Messages](https://github.com/Lone-Warlock/DSA-FINAL-PROJECT-I/blob/main/ANDROID_PHONE_DIGITAL_FORENSICS/EXHIBIT%20E.png) 
+
+📄 [Download the Full Forensics Report (PDF)](https://github.com/Lone-Warlock/DSA-FINAL-PROJECT-I/blob/main/ANDROID_PHONE_DIGITAL_FORENSICS/Autopsy%20Forensic%20Report.pdf)
 
