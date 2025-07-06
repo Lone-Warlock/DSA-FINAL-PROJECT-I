@@ -10,11 +10,11 @@ To enhance the virtual lab with a functional firewall, providing traffic inspect
 
 ---
 
-## 🧰 Tools & Technologies
+## 🧰 Tools 
 
 - Oracle VirtualBox (Type 2 hypervisor)
-- pfSense 2.7 ISO
-- Kali Linux 2023.3 (Attacker)
+- pfSense 2.6.0 ISO
+- Kali Linux 2025.1 (Attacker)
 - Windows 10 VM (Target)
 - Internal Network + NAT adapters
 
@@ -38,10 +38,10 @@ To enhance the virtual lab with a functional firewall, providing traffic inspect
    - Adapter 2: Internal Network (LAN)
 2. Assigned static IPs to Kali and Windows in the same LAN subnet (192.168.1.0/24)
 3. Successfully pinged pfSense from Windows
-4. Attempted access to pfSense Web UI from Windows browser (http://192.168.1.1)
-5. Kali briefly connected but later lost network communication
-6. Faced repeated reboots and startup hangs in pfSense VM
-7. Created and restored snapshots to preserve configuration attempts
+4. Attempted access to pfSense Web UI from Windows browser (https://192.168.1.1)
+6. Kali briefly connected but later lost network communication
+7. Faced repeated reboots and startup hangs in pfSense VM
+8. Created and restored snapshots to preserve configuration attempts
 
 ---
 
@@ -49,29 +49,30 @@ To enhance the virtual lab with a functional firewall, providing traffic inspect
 
 - VM fault: pager read error when rebooting pfSense
 - pfSense GUI becoming unresponsive after initial boot
+- Failed to connect to the internet while trying a regular Google search to test the WAN access
 - Adapter names and MAC assignments were inconsistent
 - Kali lost connection while Windows maintained access
 - Grayed-out network options prevented interface reassignment
 - No access to web configuration from Kali
-
+- No web configuration access from Windows
 Despite successful ping from Windows, I couldn’t consistently reach or configure the pfSense Web GUI.
 
 ---
 
 ## 📷 Screenshots
 
-> Screenshots are stored in the /firewall-lab/screenshots/ directory.
+> Screenshots are in the .png files under the virtual firewall inplementation folder
 
-- ![Pager Read Error](./firewall-lab/screenshots/pager-read-error.png)
-- ![Successful Windows → pfSense Ping](./firewall-lab/screenshots/win-ping-pfsense.png)
-- ![Kali Adapter Settings](./firewall-lab/screenshots/kali-network-adapter.png)
+- ![Pager Read Error](https://github.com/Lone-Warlock/DSA-FINAL-PROJECT-I/blob/main/VIRTUAL%20FIREWALL%20IMPLEMENTATION/UNENDING%20LOADING%20PROCESS.png)
+- ![Successful pings between the VMs](https://github.com/Lone-Warlock/DSA-FINAL-PROJECT-I/blob/main/VIRTUAL%20FIREWALL%20IMPLEMENTATION/pfSense.png)
+- ![Kali Adapter Settings](https://github.com/Lone-Warlock/DSA-FINAL-PROJECT-I/blob/main/VIRTUAL%20FIREWALL%20IMPLEMENTATION/pfSense.png)
 
 ---
 
 ## 💡 Lessons Learned
 
 - The importance of network adapter consistency across all VMs
-- How pfSense interfaces are mapped (WAN = em0, LAN = em1)
+- How pfSense interfaces are mapped (WAN = em0, LAN = pcn0)
 - Virtual networking quirks in VirtualBox and the value of snapshots
 - Even partial firewall configuration gives insights into routing behavior
 
